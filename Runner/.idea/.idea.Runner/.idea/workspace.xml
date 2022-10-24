@@ -8,18 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Runner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/Game.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Game.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/Game.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Game.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Properties/Resources.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Properties/Resources.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/Runner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Runner.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/back.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/bin/Debug/Runner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/bin/Debug/Runner.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/bin/Debug/Runner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/bin/Debug/Runner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/first_level.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/intro.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/obj/Debug/Runner.Game.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/obj/Debug/Runner.Game.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/obj/Debug/Runner.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/obj/Debug/Runner.Properties.Resources.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/obj/Debug/Runner.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/obj/Debug/Runner.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/obj/Debug/Runner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/obj/Debug/Runner.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/obj/Debug/Runner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/obj/Debug/Runner.pdb" afterDir="false" />
     </list>
@@ -99,7 +89,7 @@
       <workItem from="1666599163225" duration="3881000" />
       <workItem from="1666604422501" duration="2043000" />
       <workItem from="1666613988041" duration="6170000" />
-      <workItem from="1666621838470" duration="974000" />
+      <workItem from="1666621838470" duration="3406000" />
     </task>
     <servers />
   </component>

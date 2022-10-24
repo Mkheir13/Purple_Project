@@ -252,6 +252,16 @@ namespace Runner
             if (x.Left < 0 || x.Left + x.Width > pictureBox8.Left)
             {
                 _gumbaspeed2 = -_gumbaspeed2;
+                if (_gumbaleft2)
+                {
+                    pictureBox16.Image = Properties.Resources.enemyright;
+                    _gumbaleft2 = false;
+                }
+                else
+                {
+                    pictureBox16.Image = Properties.Resources.enemyleft;
+                    _gumbaleft2 = true;
+                }
             }
         }
     }

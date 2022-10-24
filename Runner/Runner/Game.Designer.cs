@@ -107,9 +107,9 @@ namespace Runner
             this.finn.BackColor = System.Drawing.Color.Transparent;
             this.finn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.finn.Image = ((System.Drawing.Image)(resources.GetObject("finn.Image")));
-            this.finn.Location = new System.Drawing.Point(402, 199);
+            this.finn.Location = new System.Drawing.Point(386, 209);
             this.finn.Name = "finn";
-            this.finn.Size = new System.Drawing.Size(30, 50);
+            this.finn.Size = new System.Drawing.Size(51, 50);
             this.finn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.finn.TabIndex = 1;
             this.finn.TabStop = false;
@@ -449,10 +449,10 @@ namespace Runner
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::Runner.Properties.Resources.enemyright;
-            this.pictureBox16.Location = new System.Drawing.Point(103, 418);
+            this.pictureBox16.Image = global::Runner.Properties.Resources.enemyleft;
+            this.pictureBox16.Location = new System.Drawing.Point(108, 418);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(50, 30);
+            this.pictureBox16.Size = new System.Drawing.Size(40, 30);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 88;
             this.pictureBox16.TabStop = false;
@@ -500,7 +500,7 @@ namespace Runner
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Runner.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(855, 493);
+            this.ClientSize = new System.Drawing.Size(851, 484);
             this.Controls.Add(this.pictureBox27);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox3);
