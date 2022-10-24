@@ -96,6 +96,13 @@
     <ItemGroup>
       <Content Include="back.jpg" />
       <Content Include="first_level.jpg" />
+      <Content Include="Resources\background.png" />
+      <Content Include="Resources\enemyleft.gif" />
+      <Content Include="Resources\enemyright.gif" />
+      <Content Include="Resources\finnidle.gif" />
+      <Content Include="Resources\finn_idle.gif" />
+      <Content Include="Resources\finn_run_left.gif" />
+      <Content Include="Resources\finn_run_right.gif" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
