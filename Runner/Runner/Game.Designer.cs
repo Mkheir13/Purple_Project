@@ -48,7 +48,7 @@ namespace Runner
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.picture_key = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
@@ -66,6 +66,8 @@ namespace Runner
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.finn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.timer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
@@ -81,7 +83,7 @@ namespace Runner
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_key)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -99,17 +101,18 @@ namespace Runner
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             this.SuspendLayout();
             // 
             // finn
             // 
             this.finn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.finn.BackColor = System.Drawing.Color.Transparent;
+            this.finn.BackColor = System.Drawing.Color.DarkRed;
             this.finn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.finn.Image = ((System.Drawing.Image)(resources.GetObject("finn.Image")));
             this.finn.Location = new System.Drawing.Point(386, 209);
             this.finn.Name = "finn";
-            this.finn.Size = new System.Drawing.Size(51, 50);
+            this.finn.Size = new System.Drawing.Size(30, 50);
             this.finn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.finn.TabIndex = 1;
             this.finn.TabStop = false;
@@ -219,9 +222,9 @@ namespace Runner
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Location = new System.Drawing.Point(708, 440);
+            this.pictureBox10.Location = new System.Drawing.Point(755, 440);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(145, 24);
+            this.pictureBox10.Size = new System.Drawing.Size(98, 24);
             this.pictureBox10.TabIndex = 61;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Tag = "platformno";
@@ -249,7 +252,7 @@ namespace Runner
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox19.Location = new System.Drawing.Point(294, 130);
+            this.pictureBox19.Location = new System.Drawing.Point(225, 130);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(27, 69);
             this.pictureBox19.TabIndex = 65;
@@ -278,17 +281,17 @@ namespace Runner
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Tag = "coin";
             // 
-            // pictureBox15
+            // picture_key
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(25, 400);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(43, 34);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 71;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Tag = "key";
+            this.picture_key.BackColor = System.Drawing.Color.Transparent;
+            this.picture_key.Image = ((System.Drawing.Image)(resources.GetObject("picture_key.Image")));
+            this.picture_key.Location = new System.Drawing.Point(4, 334);
+            this.picture_key.Name = "picture_key";
+            this.picture_key.Size = new System.Drawing.Size(43, 34);
+            this.picture_key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_key.TabIndex = 71;
+            this.picture_key.TabStop = false;
+            this.picture_key.Tag = "key";
             // 
             // pictureBox6
             // 
@@ -390,7 +393,7 @@ namespace Runner
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(225, 175);
+            this.pictureBox12.Location = new System.Drawing.Point(533, 304);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(72, 24);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -450,7 +453,7 @@ namespace Runner
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox16.Image = global::Runner.Properties.Resources.enemyleft;
-            this.pictureBox16.Location = new System.Drawing.Point(108, 418);
+            this.pictureBox16.Location = new System.Drawing.Point(89, 410);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(40, 30);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -492,6 +495,30 @@ namespace Runner
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Tag = "platformno";
             // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(637, 138);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 92;
+            this.pictureBox28.TabStop = false;
+            this.pictureBox28.Tag = "coin";
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(551, 268);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox29.TabIndex = 93;
+            this.pictureBox29.TabStop = false;
+            this.pictureBox29.Tag = "coin";
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -501,6 +528,8 @@ namespace Runner
             this.BackgroundImage = global::Runner.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 484);
+            this.Controls.Add(this.pictureBox29);
+            this.Controls.Add(this.pictureBox28);
             this.Controls.Add(this.pictureBox27);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox3);
@@ -518,7 +547,7 @@ namespace Runner
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.picture_key);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox19);
@@ -557,7 +586,7 @@ namespace Runner
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_key)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
@@ -575,8 +604,13 @@ namespace Runner
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox29;
 
         private System.Windows.Forms.PictureBox pictureBox27;
 
@@ -616,7 +650,7 @@ namespace Runner
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox picture_key;
         private System.Windows.Forms.PictureBox horizontalplatformtwo;
 
         private System.Windows.Forms.PictureBox verticalplatform;

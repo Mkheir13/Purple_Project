@@ -111,6 +111,7 @@ namespace Runner
             {
                 timer1.Stop();
                 MessageBox.Show(@"Game Over");
+                Application.Exit();
             }
         }
 
@@ -150,6 +151,7 @@ namespace Runner
                     GumbaTwo(x);
                     Gumba(x);
                     Coin(x);
+                    Clefs(x);
                 }
             }
 
@@ -189,6 +191,8 @@ namespace Runner
             }
             BringToFront();
         }
+            
+        //close app when form is closed 
 
         private void Coin(Control x)
         {
@@ -199,6 +203,24 @@ namespace Runner
                     this.Controls.Remove(x);
                     _score++;
                 }
+                if (_score == 6)
+                {
+                    picture_key.Visible = true;
+                }
+                else picture_key.Visible = false;
+            }
+        }
+
+        private void Clefs(Control x)
+        {
+            if (x is PictureBox && (string)x.Tag == "key")
+            {
+                if (finn.Bounds.IntersectsWith(x.Bounds) && !_jumping)
+                {
+                    this.Controls.Remove(x);
+                    door.Visible = true;
+                }
+                else door.Visible = false;
             }
         }
 
@@ -211,6 +233,7 @@ namespace Runner
                 {
                     timer1.Stop();
                     MessageBox.Show(@"Game Over");
+                    Application.Exit();
                 }
             }
         }
@@ -224,6 +247,7 @@ namespace Runner
                 {
                     timer1.Stop();
                     MessageBox.Show(@"Game Over");
+                    Application.Exit();
                 }
             }
         }
