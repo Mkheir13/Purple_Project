@@ -1,0 +1,11 @@
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\bin\Debug\Platform.exe.config
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\bin\Debug\Platform.exe
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\bin\Debug\Platform.pdb
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.csproj.AssemblyReference.cache
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.csproj.SuggestedBindingRedirects.cache
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Properties.Resources.resources
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.csproj.GenerateResource.cache
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.csproj.CoreCompileInputs.cache
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.exe
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.pdb
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Form1.resources
