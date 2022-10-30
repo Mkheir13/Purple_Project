@@ -79,5 +79,12 @@
     <ItemGroup>
         <None Include="App.config" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="Resources\background.png" />
+      <Content Include="Resources\finnidle.gif" />
+      <Content Include="Resources\finn_idle.gif" />
+      <Content Include="Resources\plateform.png" />
+      <Content Include="Resources\plateform1.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
