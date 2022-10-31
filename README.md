@@ -18,7 +18,8 @@ We have many choices like :
 - Space Invaders
 - Snake
 - Or a game of your choice
-- 
+
+
 # Game Choice
 For myself i choose to make a platformer and a pong game.
 I choosed the platformer because i like to make platformer games and i think it's a good game to make.
@@ -56,7 +57,8 @@ and i didn't have a lot of time to make the game because i have another job to d
 - Unlock the Key with the Candy
 - Unlock the door with the Key
 - Win
-- 
+
+
 # Improvements
 - Add a menu
 - Add a pause menu
