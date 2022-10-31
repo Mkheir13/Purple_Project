@@ -9,3 +9,6 @@ C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug
 C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.exe
 C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.pdb
 C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Form1.resources
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Menu_restart.resources
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Menu_debut.resources
+C:\Users\kheir\OneDrive\Desktop\Ynov\B2\C#\Dunk_Shot\Platform\Platform\obj\Debug\Platform.Win.resources

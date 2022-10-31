@@ -52,10 +52,34 @@
         <Compile Include="Game.Designer.cs">
             <DependentUpon>Game.cs</DependentUpon>
         </Compile>
+        <Compile Include="Menu_debut.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Menu_debut.Designer.cs">
+          <DependentUpon>Menu_debut.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Menu_restart.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Menu_restart.Designer.cs">
+          <DependentUpon>Menu_restart.cs</DependentUpon>
+        </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Win.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Win.Designer.cs">
+          <DependentUpon>Win.cs</DependentUpon>
+        </Compile>
         <EmbeddedResource Include="Game.resx">
           <DependentUpon>Game.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Menu_debut.resx">
+          <DependentUpon>Menu_debut.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Menu_restart.resx">
+          <DependentUpon>Menu_restart.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +90,9 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Win.resx">
+          <DependentUpon>Win.cs</DependentUpon>
+        </EmbeddedResource>
         <None Include="Properties\Settings.settings">
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,10 +108,23 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="Resources\background.png" />
+      <Content Include="Resources\door.png" />
+      <Content Include="Resources\door_open.png" />
+      <Content Include="Resources\enemyleft.gif" />
+      <Content Include="Resources\enemyright.gif" />
       <Content Include="Resources\finnidle.gif" />
       <Content Include="Resources\finn_idle.gif" />
+      <Content Include="Resources\gg.png" />
+      <Content Include="Resources\helpmenu.png" />
+      <Content Include="Resources\helpmenu1.png" />
+      <Content Include="Resources\key.png" />
+      <Content Include="Resources\loot.png" />
+      <Content Include="Resources\pause.png" />
+      <Content Include="Resources\pause1.png" />
+      <Content Include="Resources\pausebutton.png" />
       <Content Include="Resources\plateform.png" />
       <Content Include="Resources\plateform1.png" />
+      <Content Include="Resources\title.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
