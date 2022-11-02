@@ -34,7 +34,8 @@ For the pong game i choosed the pong theme.
 # Difficulty encountered
 For the platformer i had a lot of difficulty to make the player collide with the platforms 
 and i didn't have a lot of time to make the game because i have another job to do.
-# Features
+# Features 
+For the platformer i have a lot of features like :
 - Title Screen
 - In game
 - Game Over Screen
@@ -57,9 +58,21 @@ and i didn't have a lot of time to make the game because i have another job to d
 - Unlock the Key with the Candy
 - Unlock the door with the Key
 - Win
+For the pong game i have a lot of features like :
+- In game
+- Player 1
+- Player 2
+- Player 1 can move with the arrow keys
+- Player 2 can move with the Z and S keys
+- Collision with the walls
+- Collision with the paddles
+- Score
+- Win
+- Lose
 
 
 # Improvements
+For the platformer i would like to add :
 - Add a menu
 - Add a pause menu
 - Add a Second Level
@@ -67,5 +80,11 @@ and i didn't have a lot of time to make the game because i have another job to d
 - Add a background who moves
 - Classes 
 - Code more clean
+- Add a second character
+For the pong game i would like to add :
+- Add a menu
+- Add a pause menu
+- Add a background
+- Add a Reset button
 
 
